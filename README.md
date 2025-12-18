@@ -1,6 +1,6 @@
-# 🤖 YOLOv8 手部识别模型
+# 🤖 YOLOv11n 手部识别模型
 
-> 基于 YOLOv8 框架的手部检测解决方案，提供从数据处理、模型训练到推理部署的完整流程
+> 基于 YOLOv8 框架,YOLOv11n模型架构的手部检测解决方案，提供从数据处理、模型训练到推理部署的完整流程
 
 [![Python](https://img.shields.io/badge/Python-3.11-blue.svg)](https://www.python.org/)
 [![License](https://img.shields.io/badge/License-Apache%202.0-green.svg)](LICENSE)
@@ -126,7 +126,7 @@ python ModleTestPhoto.py
 ## 📂 项目结构详解
 
 ```
-YOLOv8/
+YOLOv11n_HandDetection/
 ├── hand_detection_dataset/              # 原始数据集（需下载）
 │   ├── annotations/                     # COCO标注文件
 │   ├── train2017/                       # 训练图片
@@ -153,7 +153,7 @@ YOLOv8/
 ├── ModleTestCamera.py					 # 调用摄像头
 ├── ModleTestPhoto.py					 # 图片推理(可批量)
 ├── ModleUrlCameraTest.py				 # 网页调用摄像头(未优化) 
-├── yolo11n.pt                           # YOLOv8预训练模型
+├── yolo11n.pt                           # YOLOv11n预训练模型
 ├── requirements.txt                     # 依赖清单
 └── README.md                            # 本文档
 ```
@@ -235,7 +235,7 @@ A: 修改 `train_hand_detector.py` 中的 `resume=True` 参数，或手动指定
 ### 获取帮助
 
 ```bash
-# 查看YOLOv8训练参数帮助
+# 查看YOLOv11n训练参数帮助
 yolo train --help
 
 # 查看数据集配置
