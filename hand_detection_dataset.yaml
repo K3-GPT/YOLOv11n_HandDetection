@@ -1,0 +1,7 @@
+names:
+- hand
+nc: 1
+path: D:/Python_Files/Personal_projects/YOLOv8/hand_detection_dataset_converted
+test: ''
+train: train/images
+val: validation/images
