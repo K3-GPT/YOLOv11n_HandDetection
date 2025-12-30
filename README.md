@@ -261,5 +261,5 @@ cat hand_detection_dataset.yaml
 
 ## 📞 联系方式
 
-- 项目主页: [K3-GPT/PDF2](https://github.com/K3-GPT/PDF2)
+- 项目主页: [K3-GPT/YOLOv11n_HandDetection](https://github.com/K3-GPT/YOLOv11n_HandDetection)
 - 邮箱: verus_amor@qq.com
